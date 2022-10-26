@@ -244,4 +244,5 @@ async def on_raw_reaction_remove(payload):
     writeSheet()
 
 
-client.run("MTAxMzEzNjMwNDkxNTA5OTc3OA.Gd6nTV.T1gE1FlxBYX3Ag7OmQjlGhCyjEtFdEKYyfJSwU")
+# Insert your own bot token here
+# client.run("")
