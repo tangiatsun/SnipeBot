@@ -25,7 +25,7 @@ import datetime
 players = []
 
 # Sheet we will be writing to
-sheetNamePath = "./SnipeBot/snipe_scores.xlsx"
+sheetNamePath = "./SnipeBotLogic/SnipeBot/snipe_scores.xlsx"
 
 # Function to find file
 def find(name, path):
@@ -55,7 +55,7 @@ def writeSheet():
 
 # --- Extract scoresheet ---
 # If scoresheet doesn't exist:
-if find("snipe_scores.xlsx", "./SnipeBot") == None:
+if find("snipe_scores.xlsx", "./SnipeBotLogic/SnipeBot") == None:
     # Creating empty scoresheet
     print("Making empty Scoresheet")
     wb = openpyxl.Workbook()
