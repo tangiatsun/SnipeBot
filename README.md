@@ -10,5 +10,11 @@ This open source bot contains all the logic to make the bot. The code that actua
 Changes needed to run it on your own server after pulling:
 - Change the "path" of where the excel sheet is (~line 28, ~line 58). It will create its own scoresheet if there isn't one.
 - Create a Discord bot using their developer tool and insert the token at the end of the code.
+  - The permissions it requires are:
+    - Read Messages/View Channels
+    - Send Messages
+    - Send Messages in Threads
+    - Read Message History
+    - Add Reactions
 - Create an invite link in their developer tool and invite the bot into the server.
 
